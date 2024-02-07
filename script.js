@@ -20,17 +20,13 @@ function fetchData() {
 	});
 
 	function displayData(data) {
-		var html = '<section><article class="d-flex">';
-		html += '<p><strong>Site:</strong> ' + data.site + '</p>';
-		html += '<p><strong>IP:</strong> ' + data.ip + '</p>';
-		html += '<p><strong>Pages:</strong><p>';
-		html += '</article><article id="page">';
+		var html = '<article id="page">';
 
 		data.pages.forEach((page) => {
 			html += displayPage(page);
 		});
 
-		html += '</article></section>';
+		html += '</article>';
 		$('#dataContainer').html(html);
 	}
 
