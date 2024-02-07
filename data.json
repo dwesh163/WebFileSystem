@@ -1,0 +1,63 @@
+{
+    "site": "Nom de votre site",
+    "ip": "192.168.0.0",
+    "pages": [
+        {
+            "url": "/",
+            "title": "Accueil",
+            "subpages": [
+                {
+                    "url": "/a-propos",
+                    "title": "À propos",
+                    "subpages": [
+                        {
+                            "url": "/equipe",
+                            "title": "Équipe",
+                            "subpages": []
+                        },
+                        {
+                            "url": "/historique",
+                            "title": "Historique",
+                            "subpages": []
+                        }
+                    ]
+                },
+                {
+                    "url": "/sous-page1",
+                    "title": "Sous-page 1",
+                    "subpages": [
+                        {
+                            "url": "/page1",
+                            "title": "Page 1 de Sous-page 1"
+                        },
+                        {
+                            "url": "/page2",
+                            "title": "Page 2 de Sous-page 1"
+                        }
+                    ]
+                },
+                {
+                    "url": "/sous-page2",
+                    "title": "Sous-page 2",
+                    "subpages": []
+                }
+            ]
+        },
+        {
+            "url": "/admin",
+            "title": "À propos",
+            "subpages": [
+                {
+                    "url": "/login",
+                    "title": "Équipe",
+                    "subpages": []
+                },
+                {
+                    "url": "/register",
+                    "title": "Historique",
+                    "subpages": []
+                }
+            ]
+        }
+    ]
+}
