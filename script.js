@@ -20,7 +20,7 @@ function fetchData() {
 	});
 
 	function displayData(data) {
-		var html = '<article id="page">';
+		var html = '<article id="page" style="height: 50vh;">';
 
 		data.pages.forEach((page) => {
 			html += displayPage(page);
